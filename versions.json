@@ -1,0 +1,12 @@
+{
+  "active": "25Q4",
+  "versions": {
+    "25Q4": {
+      "name": "2025 Q4",
+      "description": "Current version",
+      "path": "versions/25Q4",
+      "buildCommand": "npm install && npm run build",
+      "outputDir": "build"
+    }
+  }
+}

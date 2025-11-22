@@ -5,7 +5,7 @@
       "name": "2025 Q4",
       "description": "Current version",
       "path": "versions/25Q4",
-      "buildCommand": "npm install && npm run build",
+      "buildCommand": "npm install && npx svelte-kit sync && npm run build",
       "outputDir": "build"
     }
   }

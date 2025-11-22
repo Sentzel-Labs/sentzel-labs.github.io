@@ -15,6 +15,10 @@ echo "Output directory: $OUTPUT_DIR"
 # Navigate to version directory
 cd "$VERSION_PATH"
 
+# Clean install to fix rollup optional dependencies
+echo "Cleaning npm cache and dependencies..."
+rm -rf node_modules package-lock.json
+
 # Run build command
 echo "Building version $ACTIVE_VERSION..."
 eval "$BUILD_CMD"

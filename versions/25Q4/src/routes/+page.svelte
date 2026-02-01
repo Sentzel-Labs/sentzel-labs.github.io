@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from "$lib/assets/sentzel-labs-logo-black-on-transparent.svg";
+    import logo from "$lib/assets/sentzel-wordmark.svg";
 </script>
 
 <div class="flex justify-center items-center min-h-screen bg-white">
